@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BookStore</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="no_books">No books</string>
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">value</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_free_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_Free_label">Free</string>
+    <string name="settings_order_by_free_value" translatable="false">Free</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_Paid_label">Paid</string>
+    <string name="settings_order_paid_value" translatable="false">Paid</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>

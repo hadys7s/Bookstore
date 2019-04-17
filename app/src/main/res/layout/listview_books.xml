@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:id="@+id/listview"
+    android:drawSelectorOnTop="true"
+    android:minHeight="120dp"
+    >
+
+    <ImageView
+        android:id="@+id/BImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/background" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toRightOf="@+id/BImage"
+        android:orientation="vertical"
+        android:paddingLeft="13dp">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/BName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Title:hady"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:maxLines="2"
+            android:elegantTextHeight="true"
+            android:ellipsize="end"
+
+
+            />
+
+        <TextView
+            android:id="@+id/Bprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="Title:hady"
+            android:layout_alignParentBottom="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="	#008000"
+            android:textSize="12sp"
+            android:layout_marginBottom="5dp"
+
+
+            />
+</RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
